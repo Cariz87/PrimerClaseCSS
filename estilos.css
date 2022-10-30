@@ -2,11 +2,12 @@
 	background-color: rgb(19, 18, 18);
 	color: rgb(242, 242, 242);
 	text-align: center;
+	font-family: "Silkscreen";
 }
 
 	#imgPerfil {
 		border-radius: 50%;
-		border: solid 10px;
+		border: solid 5px;
 		border-color: rgb(173, 174, 176);
 	}
 
@@ -15,12 +16,23 @@
 		font-style: italic;
 	}
 
+	.DivInline {
+		display: block;
+}
 	h2{
 		font-size: 300%;
 	}
 
 	#biografia{
-		width: 60vw; 
-		height: 500px;
+		width: 70vw;
+		text-align: center; 
 		margin-left: 15%
+		display: inline-block
 	}
+	#familia {
+		display: inline-block;
+	}
+	#filmografia{
+		display: inline-block;
+	}
+	
